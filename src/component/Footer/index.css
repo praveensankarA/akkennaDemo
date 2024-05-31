@@ -1,0 +1,32 @@
+.footer-container{
+    height: 11vh;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    border-top: 0.9px solid gray;
+}
+@media (min-width:800px){
+    .footer-container{
+        display: none;
+    }
+}
+.mb-nav-btn{
+    animation: 2s navitem infinite;
+}
+
+@keyframes navitem{
+    0%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(90deg);
+    }
+    70%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(300deg);
+    }
+}
